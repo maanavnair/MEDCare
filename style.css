@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 41, 41);
+    /*background: url(header.jpg) center center/cover no-repeat;*/
+    height: 20vh;
+    color: white;
+}
+
+header span{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+header ul{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+header ul li{
+    margin-right: 4vw;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 12px;
+    color: white;
+}
+
+header ul li a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: wheat;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+header ul li:hover::after{
+    width: 100%;
+}
+
+.hero-section{
+    display: flex;
+    height: 90vh;
+}
+
+.image{
+    margin-left: 20px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content h2{
+    font-size: 2.5em;
+    margin-top: 8vh;
+}
+
+.content p{
+    font-size: 1.5em;
+}
+
+.sign-up{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 25vh;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: rgb(247, 65, 65);
+    color: white;
+    cursor: pointer;
+}
+
+.sign-up:hover{
+    transition: transform 150ms;
+    transform: scale(1.09);
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    margin-top: 2vh;
+    font-size: 1.5em;
+    font-weight:bolder;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer ul li{
+    font-size: 2em;
+    margin: 4vh 4vw;
+    cursor: pointer;
+}
+
+/*   About Us Page      */
+
+.about-hero-section{
+    display: flex;
+    height: 90vh;
+}
+
+.about-content{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-content h2{
+    font-size: 2em;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.about-content p{
+    font-size: 1.2em;
+    margin-left: 7vw;
+    margin-bottom: 5vh;
+}
+
+.about-image{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    height: 20vh;
+}
+
+/*  Login Page  */
+
+.login-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form h2{
+    text-align: center;
+    margin: 5vh;
+    font-size: 2em;
+}
+
+.login-form{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 60vh;
+    width: 27vw;
+}
+
+.login-form div{
+    margin: 7vh;
+    text-align: center;
+}
+
+.login-form input{
+    height: 4vh;
+    width: 14vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/*  Contact Us Page  */
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+}
+
+.contact-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.contact-content{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    border: 1px solid black;
+    height: 80vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form h2{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    font-size: 2em;
+}
+
+.contact-form p{
+    margin-bottom: 5vh;
+    font-size: 1.3em;
+}
+
+.contact-form input{
+    margin-bottom: 3vh;
+    height: 5vh;
+    width: 25vw;
+}
+
+.contact-form .msg{
+    height: 20vh;
+}
+
+.contact-form button{
+    margin: 2vh auto;
+    height: 5vh;
+    width: 7vw;
+    cursor: pointer;
+    background-color: rgb(247, 65, 65);
+    color: white;
+    transition: all 0.5s;
+    border: none;
+}
+
+.contact-form button:hover{
+    transition: transform 150ms;
+    transform: scale(1.09);
+}
