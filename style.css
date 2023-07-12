@@ -100,6 +100,7 @@ header ul li:hover::after{
     margin-bottom: 25vh;
     font-size: 1.2em;
     border-radius: 10px;
+    border: transparent;
     background-color: rgb(247, 65, 65);
     color: white;
     cursor: pointer;
@@ -176,7 +177,7 @@ footer ul li{
 /*  Login Page  */
 
 .login-container{
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +207,73 @@ footer ul li{
     outline: none;
     border: none;
     border-bottom: 1px solid black;
+}
+
+.login-form button{
+    height: 6vh;
+    width: 9vw;
+    font-size: 1.1em;
+    background: transparent;
+    background-color: rgb(247, 65, 65);
+    color: white;
+    border: none;
+}
+
+.login-form button:hover{
+    transition: transform 150ms;
+    transform: scale(1.09);
+}
+
+/*  Sign Up Page  */
+
+.signUp-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-form{
+    height: 70vh;
+    border-radius: 15px;
+    width: 30vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signUp-form h2{
+    font-size: 2em;
+    margin: 7vh;
+}
+
+.signUp-form div{
+    margin: 3vh;
+    text-align: center;
+}
+
+.signUp-form input{
+    height: 4vh;
+    width: 14vw;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.signUp-form button{
+    height: 6vh;
+    width: 9vw;
+    font-size: 1.1em;
+    background: transparent;
+    background-color: rgb(247, 65, 65);
+    color: white;
+    border: none;
+}
+
+.signUp-form button:hover{
+    transition: transform 150ms;
+    transform: scale(1.09);
 }
 
 /*  Contact Us Page  */
